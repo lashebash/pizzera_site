@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
+/* mainColor = FF4646 */
+/* secColor = FF8585 */
+/* 3Color = FFB396 */
+/* 4Color = FFF5C0 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 100;
+}
+
+nav {
+  background: #ff4646;
+  width: 100%;
+  height: 5rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20%;
+  position: fixed;
+  top: 0;
+}
+#brand {
+  font-weight: 900;
+  font-size: 2rem;
+  font-family: "Palette Mosaic", cursive;
+  cursor: pointer;
+}
+#brand a:hover {
+  background: transparent;
+  color: #fff;
+}
+#menu > ul {
+  display: flex;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  margin: 1rem;
+  cursor: pointer;
+  height: 100%;
+  padding-top: 2rem;
+  width: 5rem;
+  text-align: center;
+}
+a:hover,
+.active {
+  background: #fff;
+  height: 5rem;
+  color: #ff4646;
+}
+
+section {
+  display: flex;
+  padding-top: 5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 90vh;
+}
+
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* 	overflow:scroll; */
+  /* 	background:red; */
+  flex-wrap: wrap;
+}
+.card {
+  width: 15rem;
+  height: 17rem;
+  margin: 1rem;
+  border: 0.3rem solid #eee;
+  box-shadow: 10px 10px 13px 5px #eee;
+  overflow: hidden;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 1px 1px 3px 5px #aaa;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+.card div {
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.h3 {
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
+  font-family: "Palette Mosaic", cursive;
+}
+small {
+  margin-left: 1rem;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+.showcase {
+  background: url(https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+    center center/cover no-repeat;
+  width: 100%;
+  height: 50%;
+  
+}
+.showcase > h1 {
+  margin: 5rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 3%;
+  font-size: 3.5rem;
+  border-radius: 5rem 0;
+}
+.showcase > h1 > span {
+  font-family: "Palette Mosaic", cursive;
+}
+
+footer {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+  background: #ff8585;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Aside */
+
+aside {
+  height: 80v;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 20%;
+  border-right: 1px solid grey;
+}
+
+aside > p {
+  font-size: 2rem;
+  border: 1px solid #eee;
+  padding: 0.5rem;
+  width: 7rem;
+  text-align: center;
+  border-radius: 2rem;
+  background: #ff4646;
+  color: #fff;
+  cursor: pointer;
+  /* 	transform: rotate(270deg) */
+}
+
+/* About Page */
+#aboutPage {
+  max-width: 1280px;
+  height: 100%;
+  margin: auto;
+  padding: 2rem;
+  padding-top: 4rem;
+}
+
+#aboutPage h1 {
+  font-size: 4rem;
+  font-family: "Palette Mosaic", cursive;
+  margin: 3rem auto;
+  color: #36acdb;
+}
+
+#aboutPage hr {
+  border-bottom: 5px double #ff4646;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 3rem;
+  margin-top: -3.5rem;
+}
+
+#aboutPage img {
+  height: 20rem;
+  float: left;
+  margin: 0 2rem 2rem 0;
+  border-radius: 2rem;
+  border: 1rem solid #ff4646;
+  position: static;
+}
+#aboutPage p {
+  font-size: 1.5rem;
+  padding-bottom: 5rem;
+}
+
+#aboutFooter {
+  position: fixed;
+  bottom: 0;
+}
+/* @media screen and (max-width:768px) {
+nav{
+display: flex;
+flex-direction: row;
+background:blue;
+width: 100%;
+height: 10vh;
+color: #fff;
+}
+#brand {
+  font-weight: 900;
+  font-size: 2rem;
+  font-family: "Palette Mosaic", cursive;
+  cursor: pointer;
+}
+#brand a:hover {
+  background: transparent;
+  color: #fff;
+}
+#menu > ul {
+  display: flex;
+  flex-direction: column;
+  background: #ff4646;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  margin: 1rem;
+  cursor: pointer;
+  height: 5rem;
+  padding-top: 5rem;
+  width: 5rem;
+  text-align: center;
+}
+
+
+ */
+
+
+

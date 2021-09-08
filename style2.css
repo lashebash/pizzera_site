@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+box-sizing: border-box;
+font-weight: 100;
+}
+nav{
+    background: #ff4646;
+    width: 100%;
+    height: 10vh;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+    position: fixed;
+    top: 0;
+}
+a:hover,
+.active{
+background:#fff;
+height: 10vh;
+color: #ff4646
+
+}
+#brand{ 
+font-size: 2rem;
+font-weight: 900;
+}
+#menu>ul {
+display: flex;
+}
+a{
+margin: 20px;
+text-decoration: none;
+color: white;
+display: flex;
+padding-top: 5vh;
+width: 5rem;
+text-align: center;
+}
+#menu> ul> li:hover{
+background: #ff6666;
+cursor: pointer;
+height: 10vh;
+}
+
+
+
+.mid> img{
+float: left;
+width: 22rem;
+height: 20rem;
+border-radius: 2rem;
+border: #ff4646 1rem solid;
+margin: 0 2rem 2rem 0;
+position: sticky;
+}
+main{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+height: 90vh;
+}
+#showcase{
+width: 100%;
+margin: 0 auto;
+padding: 0 3rem;
+margin-top: 9rem;
+text-align: center ;
+}
+h1{
+ border: 1px solid black;   
+ background-color: wheat;
+ border-radius: 5px;
+ margin-bottom: 1rem;
+ width: 350px;
+ text-align: center;
+ margin-left: 400px;
+}
+h2{
+border:1px solid black;
+background-color: wheat;
+border-radius: 5px;
+margin-bottom: 0.5rem;
+width: 200px;
+margin-left: 500px;
+text-decoration: underline;
+text-align: center;
+}
+
+
+.aboutfooter{
+background-color: black;
+color: #fff;
+bottom: 0;
+position: fixed;
+width: 100%;
+text-align: center;
+}
