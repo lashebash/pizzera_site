@@ -136,6 +136,8 @@ footer {
   color: white;
   font-weight: 700;
   text-align: center;
+  position:fixed;
+  bottom:0;
 }
 
 /* Aside */
